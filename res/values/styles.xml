@@ -59,11 +59,14 @@
         <item name="android:layout">@layout/custom_preference_category_layout</item>
     </style>
 
-    <style name="PreferenceTheme" parent="@style/PreferenceThemeOverlay.v14.Material">
-        <!-- Parent path frameworks/support/v14/preference/res/values/themes.xml -->
+    <!--<style name="PreferenceTheme" parent="@style/PreferenceThemeOverlay.v14.Material">
         <item name="android:scrollbars">vertical</item>
         <item name="footerPreferenceStyle">@style/FooterPreference</item>
         <item name="preferenceCategoryStyle">@style/PreferenceCategory</item>
+    </style>-->
+
+    <style name="PreferenceTheme" parent="@style/PreferenceThemeOverlay.SettingsBase">
+        <item name="android:scrollbars">vertical</item>
     </style>
 
     <style name="FooterPreference" parent="PreferenceTheme">
