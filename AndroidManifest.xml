@@ -24,6 +24,7 @@
     <application
         android:defaultToDeviceProtectedStorage="true"
         android:icon="@mipmap/ic_local_hospital_24dp"
+        android:theme="@style/AppTheme"
         android:directBootAware="true"
         android:label="@string/app_label"
         android:supportsRtl="true">
@@ -43,7 +44,6 @@
         <activity
             android:name=".edit.EditInfoActivity"
             android:icon="@mipmap/ic_launcher_settings"
-            android:theme="@style/AppTheme"
             android:taskAffinity="com.android.settings"
             android:launchMode="singleTask">
             <intent-filter>
@@ -76,7 +76,6 @@
             android:icon="@mipmap/ic_launcher_settings"
             android:label="@string/medical_info_title"
             android:parentActivityName="com.android.emergency.edit.EditInfoActivity"
-            android:theme="@style/AppTheme"
             android:taskAffinity="com.android.settings"
             android:launchMode="singleTask">
             <intent-filter>
